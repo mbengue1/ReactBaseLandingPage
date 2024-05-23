@@ -5,7 +5,7 @@ import React from 'react'
 import styles from './HeaderStyles.module.css';
 import CV from '../../assets/ResumeMbengueCV.pdf';
 import { useTheme } from '../../common/ThemeContext.jsx';
-import {CiLight, MdOutlineModeNight, FaLinkedin, 
+import {MdOutlineModeNight, FaLinkedin, 
   FaGithub, MdOutlineMail, heroIMG, twitterLight, 
   twitterDark, linkedInDark, linkedInLight, moon, sun, 
   githubLight, githubDark} from '../../assets/index.js';

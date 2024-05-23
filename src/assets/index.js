@@ -1,7 +1,4 @@
-/**ICONS IMPORTS**/
-import { FaHome } from "react-icons/fa";
-/**LIGHT DARK MODE**/
-import { CiLight } from "react-icons/ci";
+
 import { MdOutlineModeNight } from "react-icons/md";
 /**SOCIAL**/
 import { FaLinkedin } from "react-icons/fa";
@@ -27,9 +24,29 @@ import hipsster from './hipsster.png';
 import fitlift from './fitlift.png';
 import freshBurger from './fresh-burger.png';
 
-/**EXPORTS**/
-export { FaHome, CiLight, MdOutlineModeNight, FaLinkedin, 
-    FaGithub, MdOutlineMail, CiCircleCheck, heroIMG, twitterLight,
-    twitterDark, linkedInDark, linkedInLight, moon, sun, githubLight, githubDark, checkMark
-,viberr, hipsster, fitlift, freshBurger  };
+//Temp Img
+import tempImg from './workinprogress.jpg';
 
+/**EXPORTS**/
+export {
+  MdOutlineModeNight,
+  FaLinkedin,
+  FaGithub,
+  MdOutlineMail,
+  CiCircleCheck,
+  heroIMG,
+  twitterLight,
+  twitterDark,
+  linkedInDark,
+  linkedInLight,
+  moon,
+  sun,
+  githubLight,
+  githubDark,
+  checkMark,
+  viberr,
+  hipsster,
+  fitlift,
+  freshBurger,
+  tempImg
+};
