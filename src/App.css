@@ -40,7 +40,7 @@ body {
   margin: 0 auto 60px;
 }
 
-
+/*8ROOT**/
 #root {
   display: flex;
   flex-direction: column;
@@ -86,6 +86,7 @@ p {
   font-weight: 300;
 }
 
+/**SECTION TITILE**/
 .sectionTitle {
   margin-bottom: 30px;
 }

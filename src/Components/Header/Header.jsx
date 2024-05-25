@@ -27,6 +27,7 @@ function Header() {
 
   return (
     <section id = 'hero' className={styles.container}>
+      
       <div className={styles.colorModeContainer}>
         <img
             src={heroIMG}
@@ -59,8 +60,8 @@ function Header() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+          A motivated and versatile computer science student willing to contribute beyond the classroom, with a strong
+          foundation in Mathematics, logic, and coding.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>

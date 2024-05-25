@@ -6,8 +6,7 @@ function Footer() {
   return (
     <section id="footer" className={styles.container}>
       <p>
-        &copy; 2024 Mouhamed Mbengue. <br />
-        All rights reserved.
+        &copy; 2024 Mouhamed Mbengue <br />
       </p>
     </section>
   );

@@ -1,10 +1,11 @@
 
 
+//Imports
 import React from 'react';
 import styles from './AboutStyles.module.css';
 
 
-
+//About Me
 function AboutMe() {
   return (
     <section className={styles.container} id='about'>
@@ -14,7 +15,7 @@ function AboutMe() {
         I'm currently studying Computer Science at the University of Rochester and I have taken relevant course such as all of Calculus, Linear Algebra, Data Structure and Algorithms, etc.
       </p>
       <p>
-        In my free time, I love to play Basketball. Feel free to reach out to me if you want to connect or collaborate on a project!
+        Feel free to reach out to me if you want to connect or collaborate on a project!
       </p>
     </section>
   );

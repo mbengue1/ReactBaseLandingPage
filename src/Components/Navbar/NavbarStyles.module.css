@@ -2,10 +2,12 @@
 
 /**NAVBAR**/
 
+/**CONTAINER**/
 .container {
     padding: 1rem;
 }
 
+/**NAVBAR CONTAINER**/
 .navbarContainer {
 
     display: flex;
@@ -16,6 +18,8 @@
 
 }
 
+
+/*8NAVBAR MENU**/
 .navbarMenu {
     display: flex;
     list-style: none;
@@ -24,9 +28,7 @@
     padding: 0;
 
 }
-
-
-
+/**NAVBAR LINK**/
 .navbarLink {
     text-decoration: none;
     color: var(--text-button-color);
@@ -48,10 +50,10 @@
 .navbarLink:hover {
 
   transition: ease-in 0.2s;
-    background-color: var(--button-color-hover);
+  background-color: var(--button-color-hover);
 
 }
-
+/**TOGGLE**/
 .toggle {
     display: none;
     flex-direction: column;
@@ -81,7 +83,7 @@
   
     .navbarItem {
       margin: 0;
-      border-top: 1px solid #444;
+      
     }
   
     .toggle {

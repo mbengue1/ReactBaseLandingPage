@@ -1,105 +1,112 @@
 
 /**CONTAINER**/
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    text-align: center;
-    height: 100dvh;
-    min-height: 500px;
-    /**HERO**/
-    .hero {
-      max-width: 200px;
-    }
-  
-    span {
-      display: flex;
-      gap: 25px;
-      justify-content: center;
-  
-      a {
-        margin: 0;
-  
-        img {
-          width: 30px;
-        }
-      }
-    }
-  
-    a {
-      width: fit-content;
-      align-self: center;
-    }
-    /**BUTTON**/
-    button {
-      background-color: var(--button-color);
-      color: var(--text-button-color);
-      border: none;
-      border-radius: 20px;
-      width: 126px;
-      height: 50px;
-      font-size: 20px;
-      font-weight: bold;
-      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-      transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
-    }
-  
-    button:hover {
-      transform: scale(1.05);
-    }
-  
-    button:active {
-      transform: translateY(2px);
-      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
-    }
-  }
-  
-  /**COLOR MODE**/
-  .colorModeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  height: 100dvh;
+  min-height: 500px;
+
+
+  /**HERO**/
+  .hero {
+    max-width: 200px;
     position: relative;
   }
-  
-  .colorMode {
-    position: absolute;
-    right: 0;
-    width: 25px;
-  }
-  
-  .colorMode:hover {
-    cursor: pointer;
-  }
-  
-  /**DESCRIPTION / INFO**/
-  .description {
-    max-width: 24ch;
-  }
-  
-  .info {
+
+  span {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  /**MEDIA QUEREIES**/
-  @media (width >= 800px) {
-    .container {
-      flex-direction: row-reverse;
-      align-items: center;
-      justify-content: space-evenly;
-  
-      .hero {
-        max-width: 350px;
-        width: 350px;
+    gap: 25px;
+    justify-content: center;
+
+    a {
+      margin: 0;
+
+      img {
+        width: 30px;
       }
     }
   }
+
+  a {
+    width: fit-content;
+    align-self: center;
+  }
+
+  /**BUTTON**/
+  button {
+    background-color: var(--button-color);
+    color: var(--text-button-color);
+    border: none;
+    border-radius: 20px;
+    width: 126px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+    transition: all 0.25s;
+  }
+
+  button:hover {
+    transform: scale(1.05);
+    background-color: var(--button-color-hover);
+  }
+
+  button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.colorModeContainer {
+  position: relative;
   
-  @media (width >= 1400px) {
-    .container {
-      .hero {
-        max-width: 400px;
-        width: 400px;
-      }
+}
+
+.colorMode {
+  position: absolute;
+  
+  width: 25px;
+  transform: translate(50%, -50%);
+}
+
+.colorMode:hover {
+  cursor: pointer;
+}
+
+.description {
+  max-width: 24ch;
+  margin: 0 auto;
+}
+
+/**INFO**/
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (width >= 800px) {
+  .container {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .hero {
+      max-width: 350px;
+      width: 350px;
     }
   }
+}
+
+@media (width >= 1400px) {
+  .container {
+    .hero {
+      max-width: 400px;
+      width: 400px;
+    }
+  }
+}
