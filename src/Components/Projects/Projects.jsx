@@ -3,7 +3,7 @@
 import React from 'react';
 import ProjectCard from '../../common/ProjectCard';
 import styles from './ProjectsStyles.module.css';
-import {tempImg, hipsster, fitlift, freshBurger} from '../../assets/index';
+import {tempImg} from '../../assets/index';
 
 
 //Projects

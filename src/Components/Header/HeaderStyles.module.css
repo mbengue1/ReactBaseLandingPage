@@ -68,14 +68,13 @@
 
 .colorMode {
   position: absolute;
-  
-  width: 25px;
   transform: translate(50%, -50%);
 }
 
 .colorMode:hover {
   cursor: pointer;
 }
+
 
 .description {
   max-width: 24ch;
@@ -89,6 +88,9 @@
   gap: 20px;
 }
 
+.icon:hover {
+  transform: scale(1.1);
+}
 @media (width >= 800px) {
   .container {
     flex-direction: row-reverse;
