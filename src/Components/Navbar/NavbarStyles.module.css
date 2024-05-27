@@ -1,92 +1,97 @@
 
 
 /**NAVBAR**/
-
-/**CONTAINER**/
-.container {
-    padding: 1rem;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  
 }
 
-/**NAVBAR CONTAINER**/
-.navbarContainer {
+nav .title {
+  font-size: 1.5rem;
+  margin: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  
+}
 
+nav ul {
+  display: flex;
+
+}
+
+nav ul.open {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+nav ul li a:hover {
+  color: var(--button-color);
+  border-bottom: 2px solid var(--button-color); 
+}
+
+nav .menu {
+  padding: 1.2rem;
+  display: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+  cursor: pointer;
+
+}
+
+nav .menu span {
+  height: 0.4rem;
+  width: 100%;
+  border-radius: 0.2rem;
+  background-color: var(--text-color);
+}
+
+@media (max-width: 650px) {
+
+  nav ul li a:hover {
+    border-bottom: none;
+  }
+
+  .title {
+    display: none;
+  }
+  nav .menu {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
+    align-items: start;
+  }
 
-
-}
-
-
-/*8NAVBAR MENU**/
-.navbarMenu {
-    display: flex;
-    list-style: none;
-    gap: 2rem;
-    margin: 0;
-    padding: 0;
-
-}
-/**NAVBAR LINK**/
-.navbarLink {
-    text-decoration: none;
-    color: var(--text-button-color);
-    padding: 0.5rem 1rem;
-    transition: 0.3s ease;
-    background-color: var(--button-color);
-    font-weight: bold;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
-    border-radius: 12px;
-    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
-    margin: auto;
-    width: 140px;
-    height: 70px;
-    
-}
-
-
-.navbarLink:hover {
-
-  transition: ease-in 0.2s;
-  background-color: var(--button-color-hover);
-
-}
-/**TOGGLE**/
-.toggle {
+  nav ul {
     display: none;
     flex-direction: column;
-    cursor: pointer;
-}
-
-.navbarIcon {
-    width: 25px;
-    height: 3px;
-    background-color: var(--text-color);
-    margin: 4px 0;
-    transition: all 0.3s ease;
-}
-
-/*MEDIA QUERIES**/
-@media (max-width: 768px) {
-    .navbarMenu {
-      display: none;
-      flex-direction: column;
-      width: 100%;
-      text-align: center;
-    }
-  
-    .navbarMenu.open {
-      display: flex;
-    }
-  
-    .navbarItem {
-      margin: 0;
-      
-    }
-  
-    .toggle {
-      display: flex; /* Show toggle on smaller screens */
-    }
+    width: 100%;
+    margin-bottom: 0.25rem;
   }
+
+  nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav ul li a {
+    margin: 0.2rem 0.5rem;
+  }
+}

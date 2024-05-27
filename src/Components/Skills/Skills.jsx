@@ -10,7 +10,7 @@ function Skills() {
         //Skills
       <section id="skills" className={styles.container}>
         {/**Main Languages**/}
-        <h1 className="sectionTitle">Languages</h1>
+        <h1 className="sectionTitle">Skills</h1>
         <div className={styles.skillList}>
           <SkillList  skill="HTML" />
           <SkillList skill="CSS" />
