@@ -7,16 +7,48 @@
     justify-content: center;
     text-align: center;
     gap: 2rem;
-    margin: 0 12rem;
-    height: 60dvh;
+    align-items: center;
+      
     
+}
+.container .text {
+    width: 850px;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 2rem;
+}
+
+.underHeading {
+    
+}
+
+.subheading {
+   
+    padding: 2rem 0;
+}
+
+ul {
+    list-style: none;
     
 }
 
 
-@media (max-width: 600px) { 
+@media (max-width: 950px) { 
 
-    .container p {
+    .container .text {
+        width: 650px;
+    }
+
+
+}
+
+@media (max-width: 650px) { 
+
+    .container .text {
         width: 250px;
     }
 

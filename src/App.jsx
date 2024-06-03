@@ -8,6 +8,7 @@ import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import Navbar from './Components/Navbar/Navbar';
 import AboutMe from './Components/About/About';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 //APP
