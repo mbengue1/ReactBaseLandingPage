@@ -5,37 +5,38 @@ import React from 'react';
 import styles from './AboutStyles.module.css';
 //react icons
 import { FaUniversity, FaBook } from 'react-icons/fa';
+import { IoMdSchool } from "react-icons/io";
+import { MdOutlineWorkOutline } from "react-icons/md";
+import { TbSchool } from "react-icons/tb";
+import { useTheme } from '../../common/ThemeContext';
+
 
 
 //About Me
 function AboutMe() {
+
+  //theme
+  const { theme } = useTheme(); 
+  const iconColor = theme === 'light' ? '#000' : '#fff';
+
   return (
     <section className={styles.container} id='about'>
       <h1 className={styles.heading}>About Me</h1>
+      <div className={styles.aboutDetailsContainer}>
+        <div className={styles.detailsContainer}>
+          <MdOutlineWorkOutline style={{ fontSize: '2rem', color: iconColor }} />
+          <h3>Experience</h3>
+          <p className={styles.rtext}>3+ years <br/>Software Development</p>
+        </div>
+        <div className={styles.detailsContainer}>
+          <TbSchool style={{fontSize: '2.5rem', color: iconColor}}/>
+          <h3>Education</h3>
+          <p className={styles.rtext}>Bachelors Of Science <br/>Computer Science <br/>University Of Rochester</p>
+      
+        </div>
 
-      {/* <div className={styles.education}>
-      <div className={styles.university}>
-        <h2 className={styles.subheading}><FaUniversity /> Education</h2>
-        <p><strong>University of Rochester</strong></p>
-        <p style={{textAlign: 'left',}} className={styles.underHeading}>B.S Computer Science</p>
-        <p style={{textAlign: 'left',}}><strong>Code With Mosh</strong></p>
-        <p className={styles.underHeading}>Masters Certificate CSS & HTML</p>
-        <p className={styles.underHeading}>Masters Certificate JavaScript</p>
       </div>
-
-      <div className={styles.relevant}>
-        <h3 className={styles.subheading}><FaBook /> Relevant Courses</h3>
-        <ul>
-          <li>Data Structures & Algorithms</li>
-          <li>Discrete Mathematics</li>
-          <li>Calculus I, II, & III</li>
-          <li>Web Development</li>
-          <li>Database Systems</li>
-        </ul>
-      </div>
-       
-        
-      </div> */}
+      
       
       <p className={styles.text}>
       A student in the computer science program at the University of Rochester who is extremely motivated and whose 

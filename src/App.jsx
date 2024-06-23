@@ -1,5 +1,5 @@
 
-/**IMPORTS**/
+// App.js
 import './App.css'
 import Header from './Components/Header/Header';
 import Skills from './Components/Skills/Skills';
@@ -9,24 +9,28 @@ import Footer from './Components/Footer/Footer';
 import Navbar from './Components/Navbar/Navbar';
 import AboutMe from './Components/About/About';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ProjectDetails from './Components/ProjectDetails/ProjectDetails';
 
 
-//APP
 function App() {
-  
-
   return (
-    <>
+    <Router>
       <Navbar/>
-      <Header/>
-      <AboutMe/>
-      <Projects/>
-      <Skills/>
-      <Contact/>
+      <Routes>
+        <Route path="/" element={
+          <>
+            <Header/>
+            <AboutMe/>
+            <Projects/>
+            <Skills/>
+            <Contact/>
+          </>
+        } />
+        <Route path="/projects/:projectId" element={<ProjectDetails />} />
+      </Routes>
       <Footer/>
-     
-    </>
-  )
+    </Router>
+  );
 }
 
-export default App
+export default App;
