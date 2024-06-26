@@ -1,0 +1,31 @@
+
+  
+  .toolsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+  }
+  
+  .tool {
+    background-color: #f0f0f0; 
+    border-radius: 12px;
+    padding: 4px 8px;
+    margin: 4px;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  /* Different colors for different tools */
+  .tool1 { background-color: #f39c12; }
+  .tool2 { background-color: #3498db; }
+  .tool3 { background-color: #2ecc71; }
+  .tool4 { background-color: #e74c3c; }
+  .tool5 { background-color: #9b59b6; }
+  .tool6 { background-color: #f39c12; }
+  .tool7 { background-color: #3498db; }
+  .tool8 { background-color: #2ecc71; }
+  .tool9 { background-color: #e74c3c; }
+  .tool10 { background-color: #9b59b6; }
+  

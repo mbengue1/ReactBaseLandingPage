@@ -12,6 +12,10 @@ import { FaLinkedin } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 import HeadShot from './headShotMbengue.png';
 import MLThumb from './mlmodelthumb.webp';
+import SWEBlogAppThumb from './BlogAppThumb.webp';
+import BlogSlides from './BlogAppDisplays.pdf';
+
+
 
 //Temp Img
 import tempImg from './workinprogress.jpg';
@@ -26,5 +30,7 @@ export {
   IoMail,
   tempImg,
   MLThumb,
+  SWEBlogAppThumb,
+  BlogSlides,
  
 };

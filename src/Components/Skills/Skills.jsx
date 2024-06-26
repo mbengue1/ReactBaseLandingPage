@@ -12,7 +12,7 @@ function Skills() {
         {/**Main Languages**/}
         <h1 className="sectionTitle">Skills</h1>
         <div className={styles.skillList}>
-          <SkillList  skill="HTML" />
+          <SkillList  skill="Node.js" />
           <SkillList skill="CSS" />
           <SkillList skill="JavaScript" />
           <SkillList skill="Java" />
@@ -31,6 +31,9 @@ function Skills() {
         <div className={styles.skillList}>
           <SkillList skill="Git" />
           <SkillList skill="Github" />
+          <SkillList skill="Rest API" />
+          <SkillList skill="Redux" />
+          <SkillList skill="Multer" />
         </div>
       </section>
     );

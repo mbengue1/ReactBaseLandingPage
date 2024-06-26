@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './ProjectsStyles.module.css';
 import ProjectCard from '../../common/ProjectCard';
 import { Link } from 'react-router-dom';
-import { tempImg, MLThumb } from '../../assets/index';
+import { tempImg, MLThumb, SWEBlogAppThumb } from '../../assets/index';
 
 //projects
 const Projects = () => {
@@ -15,28 +15,32 @@ const Projects = () => {
           <ProjectCard
             src={MLThumb}
             h3="Breast Cancer ML Model"
-            p="Learn more here."
+            link="https://github.com/MouhamedMB15/BreastCancerML"
+            tools={['Python', 'Flask', 'React', 'Machine Learning', 'Logistic Regression']}
           />
         </Link>
-        <Link to="/projects/work-in-progress-1">
+        <Link to="/projects/swe-blog-app">
           <ProjectCard
-            src={tempImg}
-            h3="Work In Progress 1"
-            p="App...."
+            src={SWEBlogAppThumb}
+            h3="Full Stack SWE Blog App"
+            link="https://github.com/MouhamedMB15/SWEBlogApplication"
+            tools={['Node.js', 'Express', 'React', 'MongoDB', 'Cloudinary']}
           />
         </Link>
         <Link to="/projects/work-in-progress-2">
           <ProjectCard
             src={tempImg}
             h3="Work In Progress 2"
-            p="App...."
+            link="#"
+            tools={['Tool 1', 'Tool 2']}
           />
         </Link>
         <Link to="/projects/work-in-progress-3">
           <ProjectCard
             src={tempImg}
             h3="Work In Progress 3"
-            p="App...."
+            link="#"
+            tools={['Tool 3', 'Tool 4']}
           />
         </Link>
       </div>
