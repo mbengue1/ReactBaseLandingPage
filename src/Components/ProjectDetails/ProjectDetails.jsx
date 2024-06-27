@@ -2,7 +2,7 @@
 // Imports
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { MLThumb, tempImg, SWEBlogAppThumb, BlogSlides } from '../../assets'; 
+import { MLThumb, tempImg, SWEBlogAppThumb, BlogSlides, RocketThumb } from '../../assets'; 
 import styles from './projectdetails.module.css'; 
 
 const projectsData = {
@@ -43,20 +43,22 @@ const projectsData = {
     projectLink: BlogSlides,
     image: SWEBlogAppThumb,
   },
-  "work-in-progress-2": {
-    title: "Work In Progress 2",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae ligula at tortor fermentum consequat. Sed efficitur purus non vehicula sodales. Nam vel ligula ac nulla blandit consectetur. Ut vehicula, sapien a pretium auctor, ex nulla sagittis urna, id venenatis tortor lectus nec turpis. Integer sit amet augue vitae nulla tristique auctor. Fusce fermentum, nulla at malesuada pellentesque, elit sapien pretium nisl, eget commodo justo eros et nulla. Donec varius justo et libero aliquam, ut suscipit magna ullamcorper.",
-    repoLink: "https://github.com/MouhamedMB15/",
-    projectLink: "https://github.com/MouhamedMB15/",
-    image: tempImg,
+  "2d-rocket-game": {
+    title: "2D Java Rocket Traveler Game",
+    description: `I developed a 2D Rocket Traveler game using Java, designed to provide an engaging and immersive experience for users. In this game, players can select from multiple rocket ships, each with unique designs and attributes, to start their space journey. The game allows free movement in any direction, offering a sense of exploration and adventure as users navigate through space.
+
+The core gameplay involves shooting and destroying asteroids, which serve as dynamic obstacles. This not only adds a layer of challenge but also keeps the gameplay exciting and fast-paced. As the more asteroids are deleted the more are spawned and duplicated randomly among the users screen. Players must skillfully maneuver their rocket ships to avoid collisions while targeting and eliminating asteroids to score points.
+
+To enhance the user experience, the game features smooth controls, ensuring that players can easily navigate their ships and react quickly to the changing environment. The graphical elements are designed to be visually appealing, with vibrant space backgrounds, detailed rocket ships, and realistic asteroid movements.
+
+Additionally, the game includes various levels of difficulty, catering to both casual gamers and those seeking a more challenging experience. The progressive increase in difficulty ensures that players remain engaged and motivated to improve their skills.
+
+Overall, the 2D Rocket Traveler project showcases the ability to design and develop an interactive and enjoyable gaming experience. It highlights my skills in Java programming, game design, and user interface development, creating a well-rounded and captivating game that appeals to a wide audience.
+    `,
+    repoLink: "https://github.com/MouhamedMB15/Java-Rocket-Game",
+    projectLink: "https://github.com/MouhamedMB15/Java-Rocket-Game",
+    image: RocketThumb,
   },
-  "work-in-progress-3": {
-    title: "Work In Progress 3",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae ligula at tortor fermentum consequat. Sed efficitur purus non vehicula sodales. Nam vel ligula ac nulla blandit consectetur. Ut vehicula, sapien a pretium auctor, ex nulla sagittis urna, id venenatis tortor lectus nec turpis. Integer sit amet augue vitae nulla tristique auctor. Fusce fermentum, nulla at malesuada pellentesque, elit sapien pretium nisl, eget commodo justo eros et nulla. Donec varius justo et libero aliquam, ut suscipit magna ullamcorper.",
-    repoLink: "https://github.com/MouhamedMB15/",
-    projectLink: "https://github.com/MouhamedMB15/",
-    image: tempImg,
-  }
 };
 
 const ProjectDetails = () => {

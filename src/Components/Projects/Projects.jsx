@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './ProjectsStyles.module.css';
 import ProjectCard from '../../common/ProjectCard';
 import { Link } from 'react-router-dom';
-import { tempImg, MLThumb, SWEBlogAppThumb } from '../../assets/index';
+import { tempImg, MLThumb, SWEBlogAppThumb, RocketThumb } from '../../assets/index';
 
 //projects
 const Projects = () => {
@@ -27,20 +27,12 @@ const Projects = () => {
             tools={['Node.js', 'Express', 'React', 'MongoDB', 'Cloudinary']}
           />
         </Link>
-        <Link to="/projects/work-in-progress-2">
+        <Link to="/projects/2d-rocket-game">
           <ProjectCard
-            src={tempImg}
-            h3="Work In Progress 2"
-            link="#"
-            tools={['Tool 1', 'Tool 2']}
-          />
-        </Link>
-        <Link to="/projects/work-in-progress-3">
-          <ProjectCard
-            src={tempImg}
-            h3="Work In Progress 3"
-            link="#"
-            tools={['Tool 3', 'Tool 4']}
+            src={RocketThumb}
+            h3="2D Rocket Traveler Game"
+            link="https://github.com/MouhamedMB15/Java-Rocket-Game"
+            tools={['Java', 'Game Engine']}
           />
         </Link>
       </div>

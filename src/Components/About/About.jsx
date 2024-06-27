@@ -31,7 +31,7 @@ function AboutMe() {
         <div className={styles.detailsContainer}>
           <TbSchool style={{fontSize: '2.5rem', color: iconColor}}/>
           <h3>Education</h3>
-          <p className={styles.rtext}>Bachelors Of Science <br/>Computer Science <br/>University Of Rochester</p>
+          <p className={styles.rtext}>University Of Rochester <br/>Computer Science <br/>Bachelors Of Science</p>
       
         </div>
 
