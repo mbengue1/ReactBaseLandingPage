@@ -14,7 +14,7 @@ import HeadShot from './headShotMbengue.png';
 import MLThumb from './mlmodelthumb.webp';
 import SWEBlogAppThumb from './BlogAppThumb.webp';
 import BlogSlides from './BlogAppDisplays.pdf';
-import Resume from './ResumeMbengue2024.pdf';
+import Resume from './Resume2024Mbengue.pdf';
 import RocketThumb from './RocketThumb.webp';
 
 
