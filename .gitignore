@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # Files
-/assets/UpdatedResume.pdf
+./src/assets/UpdatedResume.pdf
