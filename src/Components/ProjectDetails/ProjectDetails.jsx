@@ -17,7 +17,7 @@ const projectsData = {
       The application leverages Logistic Regression with hyperparameter tuning via RandomizedSearchCV to ensure the best model for the user. For scalability, both the model and scaler are saved and loaded using Joblib, facilitating efficient predictions. The frontend is a responsive web application built with React JavaScript, ensuring compatibility across mobile, tablet, and desktop platforms. Additionally, RESTful API is provided to handle prediction requests seamlessly.
     
       `,
-    repoLink: "https://github.com/MouhamedMB15/BreastCancerML",
+    repoLink: "https://github.com/mbengue1/BreastCancerML",
     projectLink: 'https://mlbreastcancermodel.netlify.app',
     image: MLThumb,
   },
@@ -38,7 +38,7 @@ const projectsData = {
 
       The database used is MongoDB, ensuring scalability and flexibility in data management. The application also integrates Cloudinary for handling image uploads efficiently.
     `,
-    repoLink: "https://github.com/MouhamedMB15/SWEBlogApplication",
+    repoLink: "https://github.com/mbengue1/SWEBlogApplication",
     projectLink: BlogSlides,
     image: SWEBlogAppThumb,
   },
@@ -54,8 +54,8 @@ Additionally, the game includes various levels of difficulty, catering to both c
 
 Overall, the 2D Rocket Traveler project showcases the ability to design and develop an interactive and enjoyable gaming experience. It highlights my skills in Java programming, game design, and user interface development, creating a well-rounded and captivating game that appeals to a wide audience.
     `,
-    repoLink: "https://github.com/MouhamedMB15/Java-Rocket-Game",
-    projectLink: "https://github.com/MouhamedMB15/Java-Rocket-Game",
+    repoLink: "https://github.com/mbengue1/Java-Rocket-Game",
+    projectLink: "https://github.com/mbengue1/Java-Rocket-Game",
     image: RocketThumb,
   },
   "neptune-sportsbook": {
