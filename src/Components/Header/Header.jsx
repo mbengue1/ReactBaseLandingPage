@@ -45,7 +45,7 @@ function Header() {
                 </h1>
                 <h2>CS Student</h2>
                 <span>
-                    <a href='https://github.com/MouhamedMB15' target='_blank'>
+                    <a href='https://github.com/mbengue1' target='_blank'>
                         {/** GitHub ICON */}
                         <FaGithub className={styles.icon} color={iconColor} size={24} />
                     </a>

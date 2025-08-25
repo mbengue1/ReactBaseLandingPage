@@ -14,10 +14,11 @@ import HeadShot from './headShotMbengue.png';
 import MLThumb from './mlmodelthumb.webp';
 import SWEBlogAppThumb from './BlogAppThumb.webp';
 import BlogSlides from './BlogAppDisplays.pdf';
-import Resume from './UpdatedResume.pdf';
+import Resume from './Resume_August25_SWE.pdf';
 import RocketThumb from './RocketThumb.webp';
-
-
+import ProjectNeptuneImage from './ProjectNeptune_image.png';
+import JobApplicationLoggerImage from './JobApplicatoinLogger_image.png';
+import IncidentResponseImage from './incidintreponse_imgag.png';
 
 
 //Temp Img
@@ -37,5 +38,7 @@ export {
   BlogSlides,
   Resume,
   RocketThumb,
- 
+  ProjectNeptuneImage,
+  JobApplicationLoggerImage,
+  IncidentResponseImage,
 };
