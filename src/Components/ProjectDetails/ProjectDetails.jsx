@@ -71,8 +71,8 @@ Overall, the 2D Rocket Traveler project showcases the ability to design and deve
 
       This project demonstrates the integration of modern mobile development technologies with real-time data APIs and AI/ML capabilities, creating a comprehensive sports betting platform that goes beyond traditional sportsbooks. The combination of real-time data, intelligent insights, and a seamless mobile experience positions Neptune Sportsbook as a next-generation platform in the sports betting industry.
     `,
-    repoLink: "https://github.com/your-username/Project_Neptune",
-    projectLink: "https://github.com/your-username/Project_Neptune",
+    repoLink: "https://github.com/mbengue1/project-neptune",
+    projectLink: "https://github.com/mbengue1/project-neptune",
     image: ProjectNeptuneImage,
   },
   "ai-incident-response": {
@@ -109,8 +109,8 @@ Overall, the 2D Rocket Traveler project showcases the ability to design and deve
 
       The current implementation is fully functional with comprehensive email parsing and de-duplication capabilities. Future enhancements include dashboard analytics to visualize your job search progress, per-ATS parsing modules for more robust extraction, and automatic platform detection based on sender domains. This tool transforms the tedious process of manually tracking job applications into an automated, intelligent system that ensures you never miss an application or duplicate an entry while providing comprehensive insights into your job search progress and success patterns.
     `,
-    repoLink: "https://github.com/your-username/job-application-autologger",
-    projectLink: "https://github.com/your-username/job-application-autologger",
+    repoLink: "https://github.com/mbengue1/job-application-script",
+    projectLink: "https://github.com/mbengue1/job-application-script",
     image: JobApplicationLoggerImage,
   },
 };
