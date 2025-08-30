@@ -1,7 +1,7 @@
 // Imports
 import styles from './ProjectsStyles.module.css';
 import ProjectCard from '../../common/ProjectCard';
-import { MLThumb, SWEBlogAppThumb, RocketThumb, ProjectNeptuneImage, JobApplicationLoggerImage, IncidentResponseImage } from '../../assets/index';
+import { MLThumb, SWEBlogAppThumb, RocketThumb, ProjectNeptuneImage, JobApplicationLoggerImage, IncidentResponseImage, NovaThumb } from '../../assets/index';
 
 //projects
 const Projects = () => {
@@ -44,6 +44,12 @@ const Projects = () => {
           h3="Job Application Auto-Logger (Google Apps Script)"
           projectId="job-application-autologger"
           tools={['Google Apps Script', 'JavaScript', 'Gmail API', 'Google Sheets API']}
+        />
+        <ProjectCard
+          src={NovaThumb}
+          h3="N.O.V.A - No Ordinary Voice Assistant"
+          projectId="nova-voice-assistant"
+          tools={['Python', 'AI/ML', 'OpenAI API', 'Whisper STT', 'Azure Neural TTS', 'macOS Automation']}
         />
       </div>
     </section>

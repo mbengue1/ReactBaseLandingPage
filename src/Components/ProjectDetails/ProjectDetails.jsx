@@ -113,6 +113,23 @@ Overall, the 2D Rocket Traveler project showcases the ability to design and deve
     projectLink: "https://github.com/mbengue1/job-application-script",
     image: JobApplicationLoggerImage,
   },
+  "nova-voice-assistant": {
+    title: "N.O.V.A - No Ordinary Voice Assistant",
+    description: `
+      N.O.V.A (No Ordinary Voice Assistant) is a personal AI assistant inspired by J.A.R.V.I.S. and F.R.I.D.A.Y. from Iron Man, designed for deep integration, natural conversation, and proactive assistance. Unlike traditional voice assistants, Nova is built for personal productivity and intelligent automation, starting with a MacBook MVP that provides always-listening capabilities with natural language understanding.
+
+      The core MVP features a sophisticated wake word detection system using "Hey Nova" as the trigger, powered by Picovoice Porcupine for low CPU usage and reliable activation. Once activated, Nova captures speech through advanced audio processing, transcribes it using Whisper (via faster-whisper) for local, efficient speech-to-text conversion, and routes commands intelligently through a modular skill system. The assistant can handle specific tasks like opening applications, checking Notion databases, providing system information, or performing mathematical calculations, all while maintaining natural conversation flow.
+
+      Nova's architecture follows an LLM-first design using OpenAI GPT-4o-mini for intelligent responses, ensuring dynamic and contextual interactions rather than scripted responses. The system includes a sophisticated router that determines whether user input should be handled by specialized skills or passed to the LLM for natural conversation. For speech output, Nova utilizes Azure Neural TTS with premium voices like Libby (British female) while maintaining fallback to macOS built-in TTS for reliability. The assistant supports barge-in capability, allowing users to interrupt responses naturally, and runs as a terminal service with professional error handling and graceful degradation.
+
+      The current implementation includes comprehensive skills for app control using AppleScript and JXA automation, system information retrieval, mathematical problem solving with explanations, and Notion integration for agenda management. The modular architecture makes it easy to extend with new capabilities, and the system operates continuously with background processing optimized for ARM64 Macs. Future development phases will expand to include proactive greetings based on context, cross-device operation, memory storage with vector databases, and expansion to Windows and iPhone platforms.
+
+      This project represents the future of personal AI assistants, combining the reliability of local processing with the intelligence of cloud-based AI to create a truly personal digital butler. Nova grows with the user, learning preferences and automating workflows while maintaining privacy and security. The vision extends beyond simple voice commands to proactive assistance that anticipates needs and provides contextual support across all aspects of digital life, transforming how we interact with our devices and manage our daily tasks.
+    `,
+    repoLink: "https://github.com/your-username/hey-nova",
+    projectLink: "https://github.com/your-username/hey-nova",
+    image: MLThumb,
+  },
 };
 
 const ProjectDetails = () => {

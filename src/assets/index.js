@@ -19,6 +19,7 @@ import RocketThumb from './RocketThumb.webp';
 import ProjectNeptuneImage from './ProjectNeptune_image.png';
 import JobApplicationLoggerImage from './JobApplicatoinLogger_image.png';
 import IncidentResponseImage from './incidintreponse_imgag.png';
+import NovaThumb from './novathumb.png';
 
 
 //Temp Img
@@ -41,4 +42,5 @@ export {
   ProjectNeptuneImage,
   JobApplicationLoggerImage,
   IncidentResponseImage,
+  NovaThumb,
 };
