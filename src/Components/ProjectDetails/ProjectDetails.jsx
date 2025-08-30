@@ -1,7 +1,7 @@
 
 // Imports
 import { useParams } from 'react-router-dom';
-import { MLThumb, SWEBlogAppThumb, BlogSlides, RocketThumb, ProjectNeptuneImage, JobApplicationLoggerImage, IncidentResponseImage } from '../../assets'; 
+import { MLThumb, SWEBlogAppThumb, BlogSlides, RocketThumb, ProjectNeptuneImage, JobApplicationLoggerImage, IncidentResponseImage, NovaThumb } from '../../assets'; 
 import styles from './projectdetails.module.css'; 
 
 const projectsData = {
@@ -128,7 +128,7 @@ Overall, the 2D Rocket Traveler project showcases the ability to design and deve
     `,
     repoLink: "https://github.com/mbengue1/nova",
     projectLink: "https://github.com/mbengue1/nova",
-    image: MLThumb,
+    image: NovaThumb,
   },
 };
 
