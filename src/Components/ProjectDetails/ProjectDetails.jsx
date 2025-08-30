@@ -126,8 +126,8 @@ Overall, the 2D Rocket Traveler project showcases the ability to design and deve
 
       This project represents the future of personal AI assistants, combining the reliability of local processing with the intelligence of cloud-based AI to create a truly personal digital butler. Nova grows with the user, learning preferences and automating workflows while maintaining privacy and security. The vision extends beyond simple voice commands to proactive assistance that anticipates needs and provides contextual support across all aspects of digital life, transforming how we interact with our devices and manage our daily tasks.
     `,
-    repoLink: "https://github.com/your-username/hey-nova",
-    projectLink: "https://github.com/your-username/hey-nova",
+    repoLink: "https://github.com/mbengue1/nova",
+    projectLink: "https://github.com/mbengue1/nova",
     image: MLThumb,
   },
 };
