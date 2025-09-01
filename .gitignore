@@ -26,3 +26,4 @@ dist-ssr
 # Files
 src/assets/
 !src/assets/Resume_August26_SWE2.pdf
+!src/assets/index.js
