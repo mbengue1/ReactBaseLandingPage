@@ -52,7 +52,7 @@ const Projects = () => {
           tools={['Python', 'AI/ML', 'OpenAI API', 'Whisper STT', 'Azure Neural TTS', 'macOS Automation']}
         />
       </div>
-    </section>
+    </section>    
   );
 };
 
