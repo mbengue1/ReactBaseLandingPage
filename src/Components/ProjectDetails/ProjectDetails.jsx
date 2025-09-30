@@ -1,7 +1,7 @@
 
 // Imports
 import { useParams } from 'react-router-dom';
-import { MLThumb, SWEBlogAppThumb, BlogSlides, RocketThumb, ProjectNeptuneImage, JobApplicationLoggerImage, IncidentResponseImage, NovaThumb } from '../../assets'; 
+import { MLThumb, SWEBlogAppThumb, BlogSlides, RocketThumb, ProjectNeptuneImage, JobApplicationLoggerImage, IncidentResponseImage, NovaThumb, PremLeagueThumb } from '../../assets'; 
 import styles from './projectdetails.module.css'; 
 
 const projectsData = {
@@ -129,6 +129,19 @@ Overall, the 2D Rocket Traveler project showcases the ability to design and deve
     repoLink: "https://github.com/mbengue1/nova",
     projectLink: "https://github.com/mbengue1/nova",
     image: NovaThumb,
+  },
+  "premier-league-role-discovery": {
+    title: "Premier League Role Discovery",
+    description: `
+  
+The Premier League Player Role Discovery project is an unsupervised machine learning and interactive visualization tool designed to reimagine how player positions are understood. Rather than sticking to traditional labels like defender, midfielder, or forward, the system analyzes detailed match data to cluster players into functional, data-driven roles. Using advanced feature engineering, dimensionality reduction, and clustering algorithms such as PCA, UMAP, and K-Means, the model uncovers underlying player archetypes that reflect real performance characteristics on the pitch.
+
+The project is deployed as an interactive Streamlit web app, enabling users to search for players, view their assigned roles, and explore comparable players within the same cluster. Intuitive radar charts, heatmaps, and scatter plots make it easy to understand each role’s defining attributes, while built-in explainability tools shed light on which features drive role assignments. By merging data science and sports analytics, this app provides fans, analysts, and clubs with a powerful way to explore player performance and unlock insights hidden in raw match statistics.
+
+    `,
+    repoLink: "https://github.com/mbengue1/pl-role-discovery",
+    projectLink: "https://pl-role-discovery.streamlit.app/",
+    image: PremLeagueThumb,
   },
 };
 

@@ -1,7 +1,7 @@
 // Imports
 import styles from './ProjectsStyles.module.css';
 import ProjectCard from '../../common/ProjectCard';
-import { MLThumb, SWEBlogAppThumb, RocketThumb, ProjectNeptuneImage, JobApplicationLoggerImage, IncidentResponseImage, NovaThumb } from '../../assets/index';
+import { MLThumb, SWEBlogAppThumb, RocketThumb, ProjectNeptuneImage, JobApplicationLoggerImage, IncidentResponseImage, NovaThumb, PremLeagueThumb } from '../../assets/index';
 
 //projects
 const Projects = () => {
@@ -50,6 +50,12 @@ const Projects = () => {
           h3="N.O.V.A - No Ordinary Voice Assistant"
           projectId="nova-voice-assistant"
           tools={['Python', 'AI/ML', 'OpenAI API', 'Whisper STT', 'Azure Neural TTS', 'macOS Automation']}
+        />
+        <ProjectCard
+          src={PremLeagueThumb}
+          h3="Premier League Role Discovery"
+          projectId="premier-league-role-discovery"
+          tools={['Python', 'scikit-learn', 'Streamlit', 'Plotly', 'SQL', 'Pandas', 'NumPy']}
         />
       </div>
     </section>    
