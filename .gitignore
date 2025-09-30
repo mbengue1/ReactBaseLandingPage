@@ -34,3 +34,6 @@ src/assets/
 !src/assets/Resume_August26_SWE.pdf
 !src/assets/pl-role-thumb.png
 
+# Keep resume private - exclude from git but accessible on Netlify
+public/Resume_August26_SWE.pdf
+

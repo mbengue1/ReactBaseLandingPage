@@ -3,7 +3,7 @@ import React from 'react'
 import styles from './HeaderStyles.module.css';
 import { useTheme } from '../../common/ThemeContext.jsx';
 
-import { HeadShot, FaGithub, MdNightlight, IoIosSunny, FaLinkedin, IoMail, Resume } from '../../assets/index.js';
+import { HeadShot, FaGithub, MdNightlight, IoIosSunny, FaLinkedin, IoMail } from '../../assets/index.js'; 
 
 function Header() {
     // Theme Switch
@@ -62,8 +62,8 @@ function Header() {
                     A motivated and versatile computer science student willing to contribute beyond the classroom, with a strong
                     foundation in Mathematics, logic, and coding.
                 </p>
-                {/**RESUME BUTTOn */}
-                <a href={Resume} target='_blank'>
+                {/**RESUME BUTTON */}
+                <a href="/Resume_August26_SWE.pdf" target='_blank'>
                     <button className="hover">Resume</button>
                 </a>
             </div>
