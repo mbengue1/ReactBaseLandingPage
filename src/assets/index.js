@@ -14,7 +14,6 @@ import HeadShot from './headShotMbengue.png';
 import MLThumb from './mlmodelthumb.webp';
 import SWEBlogAppThumb from './BlogAppThumb.webp';
 import BlogSlides from './BlogAppDisplays.pdf';
-import Resume from './Resume_August26_SWE.pdf';
 import RocketThumb from './RocketThumb.webp';
 import ProjectNeptuneImage from './ProjectNeptune_image.png';
 import JobApplicationLoggerImage from './JobApplicatoinLogger_image.png';
@@ -38,7 +37,6 @@ export {
   MLThumb,
   SWEBlogAppThumb,
   BlogSlides,
-  Resume,
   RocketThumb,
   ProjectNeptuneImage,
   JobApplicationLoggerImage,
