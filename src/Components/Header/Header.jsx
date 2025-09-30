@@ -63,8 +63,8 @@ function Header() {
                     foundation in Mathematics, logic, and coding.
                 </p>
                 {/**RESUME BUTTON */}
-                <a href="/Resume_August26_SWE.pdf" target='_blank'>
-                    <button className="hover">Resume</button>
+                <a href="#contact">
+                    <button className="hover">Resume Available Upon Request</button>
                 </a>
             </div>
         </section>
