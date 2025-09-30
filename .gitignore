@@ -25,10 +25,12 @@ dist-ssr
 
 # Files
 src/assets/
-!src/assets/Resume_August26_SWE2.pdf
+!src/assets/Resume_August26_SWE.pdf
+!src/assets/pl-role-thumb.png
 !src/assets/index.js
 !src/assets/*.png
 !src/assets/*.webp
 !src/assets/*.jpg
 !src/assets/*.jpeg
 !src/assets/*.pdf
+
